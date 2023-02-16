@@ -10,9 +10,9 @@ function apiSearch() {
   };
 
   $.ajax({
-      url: 'my-api-url' + $.param(params),
+      url: 'https://api.bing.microsoft.com//v7.0/search?' + $.param(params),
       beforeSend: function (xhrObj) {
-        xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "my-api-key");
+          xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "e5a9667d23f449778e9c1c176da6351a");
       },
       type: "GET",
     })
@@ -28,4 +28,18 @@ function apiSearch() {
     .fail(function () {
       alert("error");
     });
+}
+
+function callSearch() {
+    apiSearch()
+}
+
+function changeBackground() {
+    document.body.style.backgroundImage = "url('C:\Users\jaehe\source\repos\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\Images\esther-gorlee--uGmFjqkHFU-unsplash.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat";
+}
+
+function getCurrentTime() {
+    return Date.now();
 }
