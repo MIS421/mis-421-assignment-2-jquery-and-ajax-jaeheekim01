@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha384-Ft/vb48LwsAEtgltj7o+6vtS2esTU9PCpDqcXs4OCVQFZu5BqprHtUCZ4kjK+bpE" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        $(function() {
+            $("#dialog").dialog()
+        })
+    </script>
+    <title>Let's Bloom It!</title>
+</head>
+
+<body>
+    <div class="container" id="actualContent">
+        <div class="row" id="headerRow" onclick="changeBackgroundPicture()">
+            <div class="col-1 tulipGifLeft">
+                <img src="./Images/tulip.gif">
+            </div>
+            <div class="col-10 text-center">
+                <h1>Let's Bloom It!</h1>
+            </div>
+            <div class="col-1 tulipGifRight">
+                <img src="./Images/tulip.gif">
+            </div>
+        </div>
+        <p><i>(In this context, "Bloom" is utilized as an action verb, denoting to look something up using a search engine)</i></p>
+        <div class="form-outline w-25">
+            <input type="text" id="query" class="form-control" placeholder="Enter search here...">
+        </div>
+        <div class="container" id="buttonGroup">
+            <button id="searchButton" type="button" class="ui-button">Search</button><br>
+            <button id="timeButton" type="button" class="ui-button">Current Time</button><br>
+            <button id="luckyButton" type="button" class="ui-button">I'm Feeling Lucky!</button>
+        </div>
+    </div>
+    <div id="searchResults"></div>
+    <div id="time"></div>
+
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

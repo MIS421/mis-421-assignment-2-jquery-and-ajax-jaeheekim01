@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\Assignment2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\Images\\tulip-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\tulip-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\Images\\tulip-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\tulip-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\Images\\tulip.gif",
+      "PackagePath": "staticwebassets\\Images\\tulip.gif"
+    },
+    {
+      "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\README.md",
+      "PackagePath": "staticwebassets\\README.md"
+    },
+    {
       "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\js\\site.js",
@@ -243,6 +263,14 @@
     {
       "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\jaehe\\source\\repos\\mis-421-assignment-2-jquery-and-ajax-jaeheekim01\\Assignment2\\Assignment2\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Assignment2.Microsoft.AspNetCore.StaticWebAssets.props",

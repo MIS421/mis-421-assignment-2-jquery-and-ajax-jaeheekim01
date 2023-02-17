@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Assignment2",
+    "\\Assignment2\\Assignment2",
+    "\\Assignment2\\Assignment2\\wwwroot",
+    "\\Assignment2\\Assignment2\\wwwroot\\css"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\Assignment2\\Assignment2\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }

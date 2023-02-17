@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-mis-421-assignment-2-jquery-and-ajax-jaeheekim01",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
